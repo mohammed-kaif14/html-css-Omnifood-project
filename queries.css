@@ -1,0 +1,1540 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;  
+    padding: 0 20px;
+    position: fixed;
+    z-index: 1;
+  
+  }
+  .nav-head img{
+    width: 140px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+  }
+  .nav-link ul{
+    display: flex;
+    gap: 40px;
+    align-items:center ;
+    display: none;
+  }
+  .nav-link ul li{
+    list-style-type: none;
+  }
+  .nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .nav-link ul li button{
+    padding: 10px 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .nav-link ul li button a{
+    color: black;
+    font-size: 18px;
+  }
+  .navbar .fa-solid{
+    font-size: 25px;
+    color: white;
+    display: flex;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    position: fixed;
+    padding: 30px 20px;
+    z-index: 2;
+    gap: 100px;
+    display: none;
+  }
+  .side-list ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .side-list ul li{
+    list-style-type: none;
+  }
+  .side-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .side-list ul li button{
+    padding: 8px 20px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .sidebar ul li button a{
+    color: black;
+    font-size: 20px;
+  }
+  .sidebar img{
+    width: 140px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .side-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .sidebar .fa-solid{
+    font-size: 30px;
+    color:white;
+  }
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.550)),url(/img/gallery/gallery-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 20px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+  .hero h1{
+    color: white;
+    font-size: 33px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+  .hero p{
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    line-height: 25px;
+  }
+  .hero .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .hero .buttons button{
+    padding: 8px 10px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .specs{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    height: fit-content;
+    align-items: center;
+    gap: 5px;
+    border-radius:0 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .specs-1,.specs-2,.specs-3,.specs-4{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  
+  .specs-1 h2,.specs-2 h2,.specs-3 h2,.specs-4 h2{
+    font-size: 21px;
+  }
+  
+  .specs-1 p,.specs-2 p,.specs-3 p,.specs-4 p{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .specs-1 .fa-solid,.specs-2 .fa-solid,.specs-3 .fa-solid,.specs-4 .fa-solid{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: orangered;
+  }
+  .how{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 30px;
+    background-color: whitesmoke;
+  }
+  .how-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .how-head h3{
+    font-size: 22px;
+    color:orange;
+  
+  }
+  .how-head h1{
+    font-size: 30px;
+  }
+  .how-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+  }
+  .how-1 img,.how-2 img,.how-3 img{
+    width: 150px;
+  }
+  .how-2{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  .how-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .how-1 h1,.how-2 h1,.how-3 h1{
+    font-size: 50px;
+  }
+  
+  .how-1 h2,.how-2 h2,.how-3 h2{
+    font-size: 25px;
+  }
+  .how-1 p,.how-2 p,.how-3 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  .how-1-con,.how-2-con,.how-3-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+  }
+  .meals{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+  }
+  .meal-head{
+    color: white;
+    font-size: 30px;
+  }
+  .meal-cards{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .meal-card-1,.meal-card-2,.meal-card-3{
+    width: fit-content;
+    background-color: whitesmoke;
+    border: 4px solid orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .meal-card-1-img img,.meal-card-2-img img{
+    width: 250px;
+    border-radius: 15px;
+  }
+  .meal-card-1-con,.meal-card-2-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+  }
+  .meal-card-3-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    width: 260px;
+    border-radius: 20px;
+    border: 5px solid orange;
+  }
+  .meal-card-1-con h1,.meal-card-2-con h1,.meal-card-3-con h1{
+    font-size: 22px;
+    text-align: center;
+  }
+  .meal-card-1-con ul,.meal-card-2-con ul,.meal-card-3-con ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+  }
+  
+  .meal-card-1-con ul li,.meal-card-2-con ul li,.meal-card-3-con ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+  }
+  .testimonals{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 30px;
+  }
+  .test-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .test-cards{
+   display: flex;
+   flex-direction: column;
+    gap: 40px;
+  }
+  .test-head h1{
+    font-size: 30px;
+  }
+  .test-head h2{
+    font-size: 20px;
+  }
+  .test-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .test-right img{
+    width: 70px;
+  }
+  .test-left img{
+    width: 50px;
+    border-radius: 100px;
+    border: 2px solid black;
+  }
+  .test-card-1,.test-card-2,.test-card-3,.test-card-4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .test-card-1 p,.test-card-2 p,.test-card-3 p,.test-card-4 p{
+    font-size: 18px;
+  }
+  .pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    color: white;
+  }
+  .pricing h1{
+    font-size: 25px;
+  }
+  .price-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .price-card-1,.price-card-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/img/gallery/gallery-12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0 0;
+    color: white;
+    width: 320px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  .price-card-1 ul ,.price-card-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+ justify-content: center;
+ align-items: center;
+  }
+  .price-card-1 h1,.price-card-2 h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  .price-card-1 h2 ,.price-card-2 h2,.price-card-3 h2{
+    font-size: 23px;
+  }
+  .price-card-1 button,.price-card-2 button{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+  }
+  
+  .price-card-1 ul li,.price-card-2 ul li{
+    font-size: 15px;
+    list-style-type: none;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .contact .left form{
+    border-radius: 20px 20px 0 0;
+    background-color:orange;
+  }
+  .contact-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact h1{
+    color: black;
+    font-size: 30px;
+  }
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 300px;
+    border: 4px solid black;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 23px;
+  }
+  .contact form div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .contact form label{
+  color: black;
+  font-size: 18px;
+  }
+  .contact form input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .contact form select{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+  .contact form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    color: white;
+  }
+  .contact .right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    gap: 30px;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    width: 300px;
+  }
+  .contact .right h2{
+    font-size: 30px;
+  }
+  .contact .right p{
+    font-size: 20px;
+  }
+  .contact .right .icons{
+    display: flex;
+    gap: 20px;
+  }
+  .right .icons .fa-brands{
+    font-size: 30px;
+  }
+  .changeBg{
+    background-color: black;
+    color: white;
+  }
+  footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+    background-color: orange;
+    border: 4px solid black;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;  
+    padding: 0 40px;
+    position: fixed;
+    z-index: 1;
+  
+  }
+  .nav-head img{
+    width: 140px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+  }
+  .nav-link ul{
+    display: flex;
+    gap: 40px;
+    align-items:center ;
+    display: none;
+  }
+  .nav-link ul li{
+    list-style-type: none;
+  }
+  .nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .nav-link ul li button{
+    padding: 10px 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .nav-link ul li button a{
+    color: black;
+    font-size: 18px;
+  }
+  .navbar .fa-solid{
+    font-size: 25px;
+    color: white;
+    display: flex;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 60%;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    position: fixed;
+    padding: 50px 40px;
+    z-index: 2;
+    gap: 80px;
+    display: none;
+  }
+  .side-list ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .side-list ul li{
+    list-style-type: none;
+  }
+  .side-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .side-list ul li button{
+    padding: 8px 20px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .sidebar ul li button a{
+    color: black;
+    font-size: 20px;
+  }
+  .sidebar img{
+    width: 150px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .side-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .sidebar .fa-solid{
+    font-size: 32px;
+    color:white;
+  }
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.550)),url(/img/gallery/gallery-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 30px 0;
+    text-align: center;
+    gap: 30px;
+  }
+  .hero h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 50px;
+  }
+  .hero p{
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    line-height: 30px;
+  }
+  .hero .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .hero .buttons button{
+    padding: 10px 20px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .specs{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    height: fit-content;
+    align-items: center;
+    gap: 10px;
+    border-radius:0 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .specs-1,.specs-2,.specs-3,.specs-4{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  
+  .specs-1 h2,.specs-2 h2,.specs-3 h2,.specs-4 h2{
+    font-size: 27px;
+  }
+  
+  .specs-1 p,.specs-2 p,.specs-3 p,.specs-4 p{
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .specs-1 .fa-solid,.specs-2 .fa-solid,.specs-3 .fa-solid,.specs-4 .fa-solid{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: orangered;
+  }
+  .how{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    gap: 30px;
+    background-color: whitesmoke;
+  }
+  .how-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .how-head h3{
+    font-size: 26px;
+    color:orange;
+  
+  }
+  .how-head h1{
+    font-size: 35px;
+  }
+  .how-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+  }
+  .how-1 img,.how-2 img,.how-3 img{
+    width: 150px;
+  }
+  .how-2{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  .how-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .how-1 h1,.how-2 h1,.how-3 h1{
+    font-size: 50px;
+  }
+  
+  .how-1 h2,.how-2 h2,.how-3 h2{
+    font-size: 25px;
+  }
+  .how-1 p,.how-2 p,.how-3 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  .how-1-con,.how-2-con,.how-3-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+  }
+  .meals{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+  }
+  .meal-head{
+    color: white;
+    font-size: 30px;
+  }
+  .meal-cards{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .meal-card-1,.meal-card-2,.meal-card-3{
+    width: fit-content;
+    background-color: whitesmoke;
+    border: 4px solid orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .meal-card-1-img img,.meal-card-2-img img{
+    width: 250px;
+    border-radius: 15px;
+  }
+  .meal-card-1-con,.meal-card-2-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+  }
+  .meal-card-3-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    width: 260px;
+    border-radius: 20px;
+    border: 5px solid orange;
+  }
+  .meal-card-1-con h1,.meal-card-2-con h1,.meal-card-3-con h1{
+    font-size: 22px;
+    text-align: center;
+  }
+  .meal-card-1-con ul,.meal-card-2-con ul,.meal-card-3-con ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+  }
+  
+  .meal-card-1-con ul li,.meal-card-2-con ul li,.meal-card-3-con ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+  }
+  .testimonals{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 30px;
+  }
+  .test-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .test-cards{
+   display: flex;
+   flex-direction: column;
+    gap: 40px;
+  }
+  .test-head h1{
+    font-size: 30px;
+  }
+  .test-head h2{
+    font-size: 20px;
+  }
+  .test-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .test-right img{
+    width: 70px;
+  }
+  .test-left img{
+    width: 50px;
+    border-radius: 100px;
+    border: 2px solid black;
+  }
+  .test-card-1,.test-card-2,.test-card-3,.test-card-4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .test-card-1 p,.test-card-2 p,.test-card-3 p,.test-card-4 p{
+    font-size: 18px;
+  }
+  .pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    color: white;
+  }
+  .pricing h1{
+    font-size: 25px;
+  }
+  .price-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .price-card-1,.price-card-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/img/gallery/gallery-12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0 0;
+    color: white;
+    width: 320px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  .price-card-1 ul ,.price-card-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+ justify-content: center;
+ align-items: center;
+  }
+  .price-card-1 h1,.price-card-2 h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  .price-card-1 h2 ,.price-card-2 h2,.price-card-3 h2{
+    font-size: 23px;
+  }
+  .price-card-1 button,.price-card-2 button{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+  }
+  
+  .price-card-1 ul li,.price-card-2 ul li{
+    font-size: 15px;
+    list-style-type: none;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .contact .left form{
+    border-radius: 20px 20px 0 0;
+    background-color:orange;
+  }
+  .contact-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact h1{
+    color: black;
+    font-size: 30px;
+  }
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 360px;
+    border: 4px solid black;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 23px;
+  }
+  .contact form div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .contact form label{
+  color: black;
+  font-size: 18px;
+  }
+  .contact form input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .contact form select{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+  .contact form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    color: white;
+  }
+  .contact .right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    gap: 30px;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    width: 360px;
+  }
+  .contact .right h2{
+    font-size: 24px;
+  }
+  .contact .right p{
+    font-size: 18px;
+  }
+  .contact .right .icons{
+    display: flex;
+    gap: 20px;
+  }
+  .right .icons .fa-brands{
+    font-size: 30px;
+  }
+  .changeBg{
+    background-color: black;
+    color: white;
+  }
+  footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+    background-color: orange;
+    border: 4px solid black;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;  
+    padding: 0 40px;
+    position: fixed;
+    z-index: 1;
+  
+  }
+  .nav-head img{
+    width: 170px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+  }
+  .nav-link ul{
+    display: flex;
+    gap: 40px;
+    align-items:center ;
+    display: none;
+  }
+  .nav-link ul li{
+    list-style-type: none;
+  }
+  .nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .nav-link ul li button{
+    padding: 10px 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .nav-link ul li button a{
+    color: black;
+    font-size: 18px;
+  }
+  .navbar .fa-solid{
+    font-size: 30px;
+    color: white;
+    display: flex;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 60%;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    position: fixed;
+    padding: 40px 40px;
+    z-index: 2;
+    gap: 80px;
+    display: none;
+  }
+  .side-list ul{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .side-list ul li{
+    list-style-type: none;
+  }
+  .side-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+  }
+  .side-list ul li button{
+    padding: 12px 33px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: black;
+    border-radius: 10px;
+  }
+  .sidebar ul li button a{
+    color: black;
+    font-size: 20px;
+  }
+  .sidebar img{
+    width: 200px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .side-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .sidebar .fa-solid{
+    font-size: 40px;
+    color:white;
+  }
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.550)),url(/img/gallery/gallery-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px 30px 0;
+    text-align: center;
+    gap: 50px;
+  }
+  .hero h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 70px;
+  }
+  .hero p{
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    line-height: 40px;
+  }
+  .hero .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .hero .buttons button{
+    padding: 18px 35px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .specs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 50px 30px;
+    height: fit-content;
+    align-items: center;
+    gap: 10px;
+    border-radius:0 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .specs-1,.specs-2,.specs-3,.specs-4{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  
+  .specs-1 h2,.specs-2 h2,.specs-3 h2,.specs-4 h2{
+    font-size: 27px;
+  }
+  
+  .specs-1 p,.specs-2 p,.specs-3 p,.specs-4 p{
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .specs-1 .fa-solid,.specs-2 .fa-solid,.specs-3 .fa-solid,.specs-4 .fa-solid{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: orangered;
+  }
+  .how{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 60px;
+    gap: 30px;
+    background-color: whitesmoke;
+  }
+  .how-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .how-head h3{
+    font-size: 26px;
+    color:orange;
+  
+  }
+  .how-head h1{
+    font-size: 35px;
+  }
+  .how-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:40px;
+    align-items: center;
+  }
+  .how-1 img,.how-2 img,.how-3 img{
+    width: 150px;
+  }
+  .how-2{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  .how-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .how-1 h1,.how-2 h1,.how-3 h1{
+    font-size: 50px;
+  }
+  
+  .how-1 h2,.how-2 h2,.how-3 h2{
+    font-size: 25px;
+  }
+  .how-1 p,.how-2 p,.how-3 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  .how-1-con,.how-2-con,.how-3-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+  }
+  .meals{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+  }
+  .meal-head{
+    color: white;
+    font-size: 50px;
+  }
+  .meal-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
+  }
+  .meal-card-1,.meal-card-2,.meal-card-3{
+    width: fit-content;
+    background-color: whitesmoke;
+    border: 4px solid orange;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .meal-card-1-img img,.meal-card-2-img img{
+    width: 250px;
+    border-radius: 15px;
+  }
+  .meal-card-1-con,.meal-card-2-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+  }
+  .meal-card-3-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    width: 260px;
+    border-radius: 20px;
+    border: 5px solid orange;
+  }
+  .meal-card-1-con h1,.meal-card-2-con h1,.meal-card-3-con h1{
+    font-size: 22px;
+    text-align: center;
+  }
+  .meal-card-1-con ul,.meal-card-2-con ul,.meal-card-3-con ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+  }
+  
+  .meal-card-1-con ul li,.meal-card-2-con ul li,.meal-card-3-con ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+  }
+  .testimonals{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 30px;
+  }
+  .test-left{
+display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+  }
+  .test-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+  }
+  .test-head h1{
+    font-size: 30px;
+  }
+  .test-head h2{
+    font-size: 20px;
+  }
+  .test-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .test-right img{
+    width: 150px;
+  }
+  .test-left img{
+    width: 50px;
+    border-radius: 100px;
+    border: 2px solid black;
+  }
+  .test-card-1,.test-card-2,.test-card-3,.test-card-4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .test-card-1 p,.test-card-2 p,.test-card-3 p,.test-card-4 p{
+    font-size: 18px;
+  }
+  .pricing{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    color: white;
+  }
+  .pricing h1{
+    font-size: 25px;
+  }
+  .price-cards{
+    display: flex;
+    gap: 30px;
+  }
+  .price-card-1,.price-card-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/img/gallery/gallery-12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0 0;
+    color: white;
+    width: 320px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  .price-card-1 ul ,.price-card-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+ justify-content: center;
+ align-items: center;
+  }
+  .price-card-1 h1,.price-card-2 h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+  .price-card-1 h2 ,.price-card-2 h2,.price-card-3 h2{
+    font-size: 23px;
+  }
+  .price-card-1 button,.price-card-2 button{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 12px;
+  }
+  
+  .price-card-1 ul li,.price-card-2 ul li{
+    font-size: 15px;
+    list-style-type: none;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .contact .left form{
+    border-radius: 20px 0px 0px 20px;
+    background-color:orange;
+  }
+  .contact-cards{
+    display: flex;
+  }
+  .contact h1{
+    color: black;
+    font-size: 30px;
+  }
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 360px;
+    border: 4px solid black;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 23px;
+  }
+  .contact form div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .contact form label{
+  color: black;
+  font-size: 18px;
+  }
+  .contact form input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .contact form select{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+  .contact form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    color: white;
+  }
+  .contact .right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(93deg, #333 35%, #222 63%);
+    gap: 30px;
+    border-radius: 0 20px 20px 0px;
+    color: white;
+    width: 360px;
+  }
+  .contact .right h2{
+    font-size: 24px;
+  }
+  .contact .right p{
+    font-size: 18px;
+  }
+  .contact .right .icons{
+    display: flex;
+    gap: 20px;
+  }
+  .right .icons .fa-brands{
+    font-size: 30px;
+  }
+  .changeBg{
+    background-color: black;
+    color: white;
+  }
+  footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+    background-color: orange;
+    border: 4px solid black;
+  }
+}
